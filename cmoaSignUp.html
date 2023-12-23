@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cmoaSignUp</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <!--  -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/plugins.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page-loader">
+            <div class="page-loader-inner">
+                <div class="spinner">
+                    <div class="spinner-grow text-teal"></div>
+                </div>
+            </div>
+        </div>
+        <header class="header header-transparent">
+            <div class="container-fluid">
+                <div class="inner-header"><a class="inner-brand" href="./cmoaMain.html">CMoA</a></div>
+                <div class="inner-navigation collapse">
+                    <div class="inner-nav">
+                        <ul>
+                            <li class="menu-category-items"><a href="#"><span class="menu-category-span">한국중앙박물관</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">조직 및 업무</a></li>
+                                    <li><a href="#">시설 소개</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-category-items"><a href="#"><span class="menu-category-span">상설 전시</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">층별 안내</a></li>
+                                    <li><a href="#">추천 동선</a></li>
+                                    <li><a href="#">기증관</a></li>
+                                    <li><a href="#">실내 전시</a></li>
+                                    <li><a href="#">야외 전시</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-category-items"><a href="#"><span class="menu-category-span">특별 전시</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="./cmoaReservation.html">전시 예매</a></li>
+                                    <li><a href="./cmoaExhibit.html">현재 전시</a></li>
+                                    <li><a href="#">예정 전시</a></li>
+                                    <li><a href="#">지난 전시</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-category-items"><a href="#"><span class="menu-category-span">공지사항</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="./cmoaAnnounce.html">알림마당</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">전자민원</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-category-items"><a href="#"><span class="menu-category-span">로그인</span></a>
+                                <ul class="sub-menu">
+                                    <li><a href="./cmoaSignIn.html">로그인</a></li>
+                                    <li><a href="./cmoaSignUp.html">회원가입</a></li>
+                                    <li><a href="./cmoaFindId.html">아이디 찾기</a></li>
+                                    <li><a href="./cmoaFindPw.html">비밀번호 찾기</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper">
+            <section class="module-cover parallax text-center fullscreen" data-background="./images/img_intro_bg02.jpg" data-overlay="0.9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 m-auto">
+                            <div class="m-b-20">
+                                <h6>회원가입</h6>
+                            </div>
+                            <div class="m-b-20">
+                                <form method="post">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="이름" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="email" placeholder="이메일" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="password" placeholder="비밀번호" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="휴대폰 번호" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-block btn-round btn-brand" id="signup">회원가입</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="m-b-20">
+                                <p><small>회원가입 시 <a href="#">약관 동의</a>가 이루어집니다</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer footer-bar col-md-12">
+                <p>2023 한국중앙박물관 Central Museum of Korea</p>
+            </footer>
+        </div>
+        <!-- scripts -->
+        <script src="./js/bootstrap/jquery.min.js"></script>
+        <script src="./js/bootstrap/bootstrap.min.js"></script>
+        <script src="./js/bootstrap/plugins.min.js"></script>
+        <script src="./js/bootstrap/bootstrap.bundle.js"></script>
+    </body>
+</html>
